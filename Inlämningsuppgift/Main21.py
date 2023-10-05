@@ -82,7 +82,7 @@ class Kort: #    En klass som representerar ett kort i en kortlek.
         else:
             print('Hejdå')
     @staticmethod
-    def dator(din_total):#Funktion för datorn, och hoppar hit när jag väljer att stanna.
+    def dator(din_total):#Funktion för datorn, och hoppar hit när jag väljer att stanna min hand i spelare1
         datorns_hand = []
         kortlek = Kort.skapa_kortlek()
         #Så länge datorns hand är mindre än 21 och är mindre än spelare1s hand så ska den dra ett kort.
