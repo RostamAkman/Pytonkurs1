@@ -17,7 +17,7 @@ class Kort: #    En klass som representerar ett kort i en kortlek.
         random.shuffle(kortlek)
         return kortlek
 
-    #en funktion som räknar värdet i din hand, för att se om man kommer över 21 eller inte.
+    #en funktion som räknar värdet i din hand.
     @staticmethod
     def räkna_värde(din_hand):
         value = 0
